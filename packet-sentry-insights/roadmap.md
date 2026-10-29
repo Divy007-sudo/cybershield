@@ -1,0 +1,6 @@
+- [x] Generate full Excel from all 175,341 actual training records with the same 13 columns.
+- [x] Replace the website download with the full dataset and provide a Files attachment and stable URL.
+- [x] Verify every exported record against source and test the full download.
+- [x] Audit current source for credentials and dataset binaries; add project README and public-release ignore guidance.
+- [ ] Apply ignore guidance before GitHub sync — .gitignore is platform-protected in this session.
+- [ ] Create/sync the new public repository — requires the user's GitHub authorization and Lovable/GitHub UI actions.

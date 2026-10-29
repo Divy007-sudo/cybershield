@@ -1,0 +1,25 @@
+# Merge these entries into .gitignore before connecting GitHub.
+# This file is documentation, not an active ignore file.
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+.workspace/
+
+# Keep public *.xlsx.asset.json pointers, not dataset binaries.
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.zip
+datasets/
+generated-data/
